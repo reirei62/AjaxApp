@@ -22,6 +22,7 @@ function memo(){
           ${item.content}
           </div>
         </div>`;
+        //listの後にhtml挿入
       list.insertAdjacentHTML("afterend", HTML);
 
       formText.value = "";
