@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 メモ投稿機能実装
+=======
+>>>>>>> parent of 6f713cad... Merge pull request #3 from reirei62/revert-2-メモ投稿機能実装
 function memo(){
   const submit = document.getElementById("submit");
   submit.addEventListener("click", (e) => {
@@ -23,7 +26,10 @@ function memo(){
           ${item.content}
           </div>
         </div>`;
+<<<<<<< HEAD
         //listの後にhtml挿入
+=======
+>>>>>>> parent of 6f713cad... Merge pull request #3 from reirei62/revert-2-メモ投稿機能実装
       list.insertAdjacentHTML("afterend", HTML);
 
       formText.value = "";
@@ -41,5 +47,9 @@ function memo(){
     e.preventDefault();
   })
 }
+<<<<<<< HEAD
 window.addEventListener('load',memo);
 ====
+=======
+window.addEventListener('load',memo);
+>>>>>>> parent of 6f713cad... Merge pull request #3 from reirei62/revert-2-メモ投稿機能実装
